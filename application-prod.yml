@@ -3,7 +3,7 @@ spring:
     name: Production
 eureka:
   instance:
-    prefer-ip-address: false
+    prefer-ip-address: true
   client:
     fetch-registry: true
     serviceUrl:
